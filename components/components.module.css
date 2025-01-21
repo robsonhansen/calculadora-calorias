@@ -1,0 +1,23 @@
+.cardPrincipal {
+  @apply w-full max-w-xl mx-auto;
+}
+
+.cardTitle {
+  @apply text-3xl font-light;
+}
+
+.form {
+  @apply space-y-4;
+}
+
+.button {
+  @apply w-full inline-flex items-center justify-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-sm font-medium text-white;
+}
+
+.button:hover {
+  @apply bg-emerald-900;
+}
+
+.divInput {
+  @apply space-y-2;
+}
